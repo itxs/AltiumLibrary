@@ -1,0 +1,60 @@
+*
+* This spice model was created using the Altium Spice Model Wizard
+* Created: 14:48 on 19 Сентябрь, 2017
+*
+* Description: SMALL SIGNAL NPN TRANSISTOR
+* Component Name: 2N3904
+*
+.MODEL 2N3904 NPN
++(
++     IS = 5,9605E-0009
++     NF = 1,3939
++     RE = 0,0001
++    IKF = 216,9291
++     BF = 232,9342
++     NE = 2,2314
++    ISE = 5,8397E-0023
++    VAF = 1000,0000
++    CJE = 4,6154E-0012
++    VJE = 0,3600
++    MJE = 0,2450
++    CJC = 3,9396E+0000
++    VJC = 0,2100
++    MJC = 0,2083
++    CJS = 1,0752E-0012
++    VJS = 0,1000
++    MJS = 0,5000
++     TF = 6,36619772367581E-10
++     TR = 6,36619310822781E-10
++)
+
+* Spice model 2N3904 has been assigned the following parameters:
+
+* DC Current-Voltage Parameters
+*       IS: Transport saturation current....................(Unit: A)
+*       NF: Forward current emission coefficient
+*       RE: Emitter resistance..............................(Unit: Ohm)
+*      IKF: Corner for forward beta high current roll-off...(Unit: A)
+*       BF: Ideal maximum forward beta
+*       NE: B-E leakage emission coefficient
+*      ISE: B-E leakage saturation current..................(Unit: A)
+*      VAF: Forward Early voltage...........................(Unit: V)
+
+* Reverse-Bias Base-Emitter Junction Capacitance Parameters
+*      CJE: B-E zero-bias depletion capacitance.............(Unit: F)
+*      VJE: B-E built-in potential..........................(Unit: V)
+*      MJE: B-E junction exponential factor
+
+* Reverse-Bias Base-Collector Junction Capacitance Parameters
+*      CJC: B-C zero-bias depletion capacitance.............(Unit: F)
+*      VJC: B-C built-in potential..........................(Unit: V)
+*      MJC: B-C junction exponential factor
+
+* Reverse-Bias Collector-Substrate Junction Capacitance Parameters
+*      CJS: Zero-bias collector-substrate capacitance.......(Unit: F)
+*      VJS: Substrate junction built-in potential...........(Unit: V)
+*      MJS: Substrate junction exponential factor
+
+* Transit Time Parameters
+*       TF: Ideal forward transit time......................(Unit: Sec)
+*       TR: Ideal reverse transit time......................(Unit: Sec)
